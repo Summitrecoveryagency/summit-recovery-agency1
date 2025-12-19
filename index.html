@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summit Recovery Agency</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0b1220',
+            accent: '#38bdf8',
+            gold: '#facc15'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- TOP BAR -->
+  <div class="bg-black text-white text-sm py-2">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between">
+      <span>Trusted Nationwide Recovery Specialists</span>
+      <span>Call Now: +1 (365) 409-1016</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="bg-primary text-white sticky top-0 z-50 shadow-xl">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-wide">Summit Recovery Agency</h1>
+      <nav class="hidden md:flex space-x-8 font-medium">
+        <a href="#" class="hover:text-accent">Home</a>
+        <div class="relative group">
+          <button class="hover:text-accent">Services ▾</button>
+          <div class="absolute hidden group-hover:block bg-white text-slate-800 mt-3 rounded-xl shadow-xl w-64">
+            <a href="#services" class="block px-6 py-3 hover:bg-slate-100">Debt Recovery</a>
+            <a href="#services" class="block px-6 py-3 hover:bg-slate-100">Commercial Collections</a>
+            <a href="#services" class="block px-6 py-3 hover:bg-slate-100">Skip Tracing</a>
+            <a href="#services" class="block px-6 py-3 hover:bg-slate-100">Account Management</a>
+          </div>
+        </div>
+        <a href="#about" class="hover:text-accent">Why Us</a>
+        <a href="#contact" class="hover:text-accent">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative bg-gradient-to-br from-primary via-slate-900 to-black text-white overflow-hidden">
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3" alt="Security Background" class="w-full h-full object-cover opacity-20" />
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 py-32 grid md:grid-cols-2 gap-14 items-center">
+      <div>
+        <span class="inline-block bg-accent/10 text-accent px-4 py-1 rounded-full mb-5">Secure • Confidential • Trusted</span>
+        <h2 class="text-5xl font-extrabold leading-tight mb-6">Recover More.<br>Protect Your Brand.</h2>
+        <p class="text-xl opacity-90 mb-10">Summit Recovery Agency operates with strict security standards, data protection, and compliance to safeguard client and debtor information worldwide.</p>
+        <div class="flex gap-4">
+          <a href="#contact" class="bg-accent hover:bg-sky-500 px-8 py-4 rounded-full font-semibold text-lg">Request a Free Consultation</a>
+          <a href="tel:+13654091016" class="border border-white/30 hover:bg-white/10 px-8 py-4 rounded-full font-semibold text-lg">Call Now</a>
+        </div>
+      </div>
+      <div class="hidden md:block">
+        <div class="bg-white/10 backdrop-blur rounded-3xl p-10 text-center">
+          <p class="text-6xl font-extrabold text-gold">98%</p>
+          <p class="uppercase tracking-wide text-sm mt-2">Client Satisfaction</p>
+          <p class="mt-6">Secure handling of sensitive data with transparent reporting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BADGES -->
+  <section class="bg-white py-14">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-center">
+      <div class="font-semibold">✔ FDCPA Compliant</div>
+      <div class="font-semibold">✔ Nationwide Coverage</div>
+      <div class="font-semibold">✔ No Upfront Fees</div>
+      <div class="font-semibold">✔ Secure & Confidential</div>
+    </div>
+  </section>
+
+  <!-- COUNTRIES WE SERVE -->
+  <section class="bg-slate-100 py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center mb-6">International Recovery Coverage</h3>
+      <p class="text-center text-lg max-w-4xl mx-auto mb-16">Summit Recovery Agency provides cross-border recovery services through established networks and jurisdiction-aware strategies. We understand the legal, cultural, and regulatory differences involved in international recovery.</p>
+
+      <div class="grid md:grid-cols-3 gap-12">
+        <div class="bg-white p-10 rounded-3xl shadow-lg">
+          <h4 class="text-2xl font-semibold mb-4">🇦🇺 Australia</h4>
+          <p>Recovery services compliant with Australian regulations and best practices. We handle commercial and consumer accounts while maintaining strict ethical standards.</p>
+        </div>
+        <div class="bg-white p-10 rounded-3xl shadow-lg">
+          <h4 class="text-2xl font-semibold mb-4">🇨🇦 Canada</h4>
+          <p>Nationwide Canadian recovery support with province-aware processes and compliant communication standards.</p>
+        </div>
+        <div class="bg-white p-10 rounded-3xl shadow-lg">
+          <h4 class="text-2xl font-semibold mb-4">🇪🇺 Europe</h4>
+          <p>Recovery solutions across key European markets, leveraging local partnerships and region-specific compliance frameworks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="max-w-7xl mx-auto px-6 py-24">
+    <h3 class="text-4xl font-bold text-center mb-16">Our Core Services</h3>
+    <div class="grid md:grid-cols-3 gap-12">
+      <div class="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-4">Debt Recovery</h4>
+        <p>Respectful, data-driven recovery solutions designed to maximize collections while maintaining compliance.</p>
+      </div>
+      <div class="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-4">Commercial Collections</h4>
+        <p>B2B recovery services backed by analytics, reporting, and strategic negotiation.</p>
+      </div>
+      <div class="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-4">Skip Tracing</h4>
+        <p>Advanced tools and databases to locate debtors efficiently and accurately.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="about" class="bg-slate-100 py-24">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
+      <div>
+        <h3 class="text-4xl font-bold mb-6">Why Choose Summit Recovery Agency</h3>
+        <ul class="space-y-4 text-lg">
+          <li>✔ Ethical, compliant recovery practices</li>
+          <li>✔ Experienced negotiators & analysts</li>
+          <li>✔ Transparent reporting & communication</li>
+          <li>✔ Scalable solutions for any business size</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-3xl p-10 shadow-xl">
+        <p class="text-xl font-semibold mb-4">Our Commitment</p>
+        <p>We operate with integrity, discretion, and professionalism — ensuring your brand is protected while delivering measurable recovery results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="max-w-7xl mx-auto px-6 py-24">
+    <h3 class="text-4xl font-bold text-center mb-14">Get Started Today</h3>
+    <div class="grid md:grid-cols-2 gap-14">
+      <div class="space-y-6 text-lg">
+        <p><strong>Phone:</strong> +1 (365) 409-1016</p>
+        <p><strong>Email:</strong> summitrecoveryagency@pm.me<br><strong>Additional Email:</strong> summitrecoveryagency@proton.me</p>
+        <p><strong>Address:</strong><br>Ottawa Regional Road 31<br>Ottawa, ON<br>K1H 8K7 / K1V 0N1<br>Canada</p>
+        <p>Schedule a confidential consultation and discover how Summit Recovery Agency can improve your recovery outcomes.</p>
+      </div>
+      <form name="contact" method="POST" data-netlify="true" class="bg-white p-10 rounded-3xl shadow-xl space-y-6">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="text" placeholder="Your Name" class="w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-accent outline-none">
+        <input type="email" placeholder="Your Email" class="w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-accent outline-none">
+        <textarea rows="4" placeholder="Your Message" class="w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-accent outline-none"></textarea>
+        <button class="w-full bg-primary hover:bg-slate-800 text-white font-semibold py-3 rounded-lg">Request Consultation</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-primary text-white text-center py-8 text-sm opacity-80">
+    © 2025 Summit Recovery Agency. All rights reserved.
+  </footer>
+
+</body>
+</html>
